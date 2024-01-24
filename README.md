@@ -2,6 +2,13 @@
 Heaven Sinners - Action Tower Defense
 
 # IMPORTANTE
+
+LA CARPETA STATIC ESTÁ COMPARTIDA EN EL ONEDRIVE DEBIDO A LAS LIMITACIONES DEL LFS. SE DEBERÁ SOBREESCRIBIR SEGUN SEA NECESARIO CON EL CONTENIDO DE ONEDRIVE ASEGURARSE DE QUE EL .gitignore TIENE ESTE CONTENIDO AL FINAL:
+
+#Big Static Files(Materials, Textures, Meshes...)
+
+Content/Static/*
+
 Siempre que se quieran descartar cambios no "commiteados" se deberá ``` cerrar el Unreal Engine  ANTES de descartar los cambios ```.
 
 Recomiendo cerrar Unreal siempre que se quiera ejecutar alguna orden relacionada con Github, como son los push, pull, merge, commit, etc.
